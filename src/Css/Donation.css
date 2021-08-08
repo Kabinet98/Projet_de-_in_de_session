@@ -1,0 +1,48 @@
+.donation {
+  width: 250px;
+  border: 1px solid gray;
+  border-radius: 7px;
+  transition: 450ms;
+  margin:0 10px 10px 0;
+}
+.img {
+  object-fit: cover;
+  width: 100%;
+  height: 300px;
+}
+.donation__header {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  justify-content: space-between;
+  
+}
+.donation:hover {
+  box-shadow: 0px 2px 5px;
+  transform: scale(1.05);
+}
+.button {
+  width: 100%;
+  text-align: center;
+  padding: 7px;
+  background-color: #051e3e;
+  color: white;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+.addDownloadLists{
+  margin-top:5px;
+  background-color: crimson;
+  padding: 10px;
+  color:white;
+  width: 100%;
+  border: none;
+  cursor: pointer;
+}
+.donation__bottom{
+  display:flex;
+  flex-direction:column;
+  justify-content: space-between;
+  
+}

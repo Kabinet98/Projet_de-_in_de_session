@@ -1,0 +1,23 @@
+h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin: 1vh 0 2vh 0;
+}
+.comment__section {
+  display: flex;
+  align-items: center;
+  padding: 2px;
+}
+.comment__input {
+  flex: 0.9;
+  background-color: white;
+  border-radius: 7px;
+  margin-left: 1vh;
+  width: 40vh;
+}
+.comment {
+  width: 95%;
+  border: none;
+}

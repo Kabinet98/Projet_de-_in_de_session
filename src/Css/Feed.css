@@ -1,0 +1,67 @@
+.feed {
+  flex: 1;
+  height: 100vh;
+  padding: 5px;
+  overflow-y: scroll;
+}
+.feed::-webkit-scrollbar{
+  width: 0;
+}
+.feed__header__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.feed__header__top img {
+  object-fit: contain;
+  width: 3vh;
+}
+.feed__header__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.SearchBar {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+form input {
+  padding: 7px;
+  width: 570px;
+  font-size: 15px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+form button {
+  border: none;
+  background-color: white;
+}
+.login {
+  padding: 7px;
+  border: none;
+  border-radius: 5px;
+  width: 70px;
+  font-weight: 500;
+  background-color: #051e3e;
+  color: white;
+  cursor: pointer;
+}
+.logout {
+  padding: 7px;
+  border: none;
+  border-radius: 5px;
+  width: 70px;
+  font-weight: 500;
+  background-color: crimson;
+  color: white;
+  cursor: pointer;
+}
+.feed__bodyDonation {
+  padding: 5px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  row-gap: .5;
+  column-gap:.5;
+}

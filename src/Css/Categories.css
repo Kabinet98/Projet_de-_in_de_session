@@ -1,0 +1,52 @@
+.category{
+   margin-bottom: 15px;
+}
+ul li {
+    padding:5px 0 5px 10px;
+    cursor:pointer;
+    transition: 450ms;
+}
+ul li:hover{
+    transform: scale(1.05);
+}
+
+ul span{
+    display: flex;
+    align-items: center;
+}
+.videosUl{
+    padding:5px;
+    border-left:5px solid #051e3e;
+    background-color: #03396c ;
+    border-radius: 5px;
+}
+.FilesUl{
+    padding:5px;
+    border-left:5px solid #851e3e;
+    background-color:  #251e3e;
+    border-radius: 5px;
+}
+.SongsUl{
+    padding:5px;
+    border-left:5px solid #651e3e;
+    background-color:  #451e3e ;
+    border-radius: 5px;
+}
+.ApplicationsUl{
+    padding:5px;
+    border-left:5px solid #49657b;
+    background-color:  #7f8e9e;
+    border-radius: 5px;
+}
+.VideoGamesUl{
+    padding:5px;
+    border-left:5px solid #6f7c85;
+    background-color:   #851e3e;
+    border-radius: 5px;
+}
+.GpsUl{
+    padding:5px;
+    border-left:5px solid #2e003e ;
+    background-color:  #3d2352;
+    border-radius: 5px;
+}

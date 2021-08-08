@@ -1,0 +1,20 @@
+.sidebar{
+    height: 100vh;
+    flex:.15;
+    border-right: 1px solid  rgba(0,0,0,.2);
+    padding:5px;
+    overflow: scroll;
+}
+.sidebar::-webkit-scrollbar{
+    width: 0;
+  }
+.sidebarUserInfo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.username{
+    color:#b3cde0;
+}

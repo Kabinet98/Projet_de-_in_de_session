@@ -1,0 +1,17 @@
+.comments{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2vh;
+}
+.doneComment{
+    width: 70%;
+    margin-left: 1vh;
+    padding:15px;
+    border:none;
+    border-radius: 7px;
+    color:white;
+    font-weight: bold;
+}
+small{
+    margin-left:1vh;
+}

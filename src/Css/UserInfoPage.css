@@ -1,0 +1,39 @@
+.avatar , .span{
+    padding:5px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.role{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.upload__file{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.upload__file{
+    width: 700px;
+    display: flex;
+    justify-content: center;
+   
+}
+.user__info__page__bottom{
+    margin-top:20px;
+    display: flex;
+    justify-content: center;
+}
+.file_category{
+    margin: 3vh 0 3vh 0;
+}
+
+#select{
+    width: 100%;
+    padding:5px;
+    font-size: 15px;
+    color:gray;
+    border-radius: 7px;
+    outline: none;
+}

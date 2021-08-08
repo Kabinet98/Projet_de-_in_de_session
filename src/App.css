@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color:#151b22;
+  color:rgba(255,255,255,.7);
+  font-weight: 400;
+  height: 100vh;
+  font-family: 'Roboto Condensed', sans-serif;
+  padding:5px;
+}
+.home{
+  display: flex;
+  flex-direction: row;
+  
+}
+html{
+  scroll-behavior: smooth;
+}
+
+:root{
+  --colorSide: #18222c;
+}
+@media screen and (max-width: 1080px){
+  .downloadList{
+      display: none;
+      
+  }
+}
+@media screen and (max-width: 980px){
+  .sidebar{
+      display: none;
+  }
+}

@@ -1,0 +1,51 @@
+.downloadLater{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2vh;
+    color:silver;
+    text-decoration: none;
+    transition: 450ms;
+}
+.downloadLater:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 7px;
+    opacity: .7;
+}
+img{
+    width: 6vh;
+    margin-right: 5px;
+    height: 7vh;
+    border-radius: 5px;
+    object-fit: cover;
+}
+.downloadLater__description{
+    display: flex;
+    object-fit: contain;
+    flex-direction: column;
+}
+.downloadLater__delete__bottom{
+    display: flex;
+    align-items: center;
+}
+.downloadLater_delete_top{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+.downloadLater__delete__top{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+}
+.title span:first-child{
+    font-size: 15px;
+    font-weight: bold;
+}
+.title span:nth-child(2){
+    font-size: 13px;
+}

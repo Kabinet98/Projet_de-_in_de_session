@@ -1,0 +1,11 @@
+.downloadList{
+    border-left:1px solid rgba(0,0,0,.2);
+    flex:.25;
+    height: 100vh;
+    padding:5px;
+    overflow-y: scroll;
+
+}
+.downloadList::-webkit-scrollbar{
+    width: 0;
+}
